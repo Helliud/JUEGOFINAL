@@ -18,10 +18,10 @@ Piso::Piso() {
 	 gPiso = 0.32f;
 	 bPiso = 0.32f;
 
-	vertices.push_back({ vec4(-50.0f, -0.8f,  -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.3f) });
-	vertices.push_back({ vec4(50.0f, -0.8f,  -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.25f) });
-	vertices.push_back({ vec4(50.0f, -0.8f,  20.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.5f) });
-	vertices.push_back({ vec4(-50.0f, -0.8f,  20.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.4f) });
+	vertices.push_back({ vec4(-50.0f, -0.8f,  -100.0f, 1.0f),vec4(0.39607f, 0.54509f, 0.38431f, 0.3f) });
+	vertices.push_back({ vec4(50.0f, -0.8f,  -100.0f, 1.0f),vec4(0.39607f, 0.54509f, 0.38431f, 0.25f) });
+	vertices.push_back({ vec4(50.0f, -0.8f,  26.0f, 1.0f),vec4(0.39607f, 0.54509f, 0.38431f, 0.5f) });
+	vertices.push_back({ vec4(-50.0f, -0.8f,  26.0f, 1.0f),vec4(0.39607f, 0.54509f, 0.38431f, 0.4f) });
 
 	vertices.push_back({ vec4(-50.0f, 20.0f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 	vertices.push_back({ vec4(50.0f, 20.0f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
@@ -29,14 +29,14 @@ Piso::Piso() {
 	vertices.push_back({ vec4(-50.0f, -0.8f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 
 	vertices.push_back({ vec4(-50.0f, -0.8f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
-	vertices.push_back({ vec4(-50.0f, -0.8f, 20.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
-	vertices.push_back({ vec4(-50.0f, 20.0f, 20.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
+	vertices.push_back({ vec4(-50.0f, -0.8f, 26.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
+	vertices.push_back({ vec4(-50.0f, 20.0f, 26.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 	vertices.push_back({ vec4(-50.0f, 20.0f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 
-	vertices.push_back({ vec4(50.0f, -0.8f, 20.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
+	vertices.push_back({ vec4(50.0f, -0.8f, 26.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 	vertices.push_back({ vec4(50.0f, -0.8f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 	vertices.push_back({ vec4(50.0f, 20.0f, -100.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
-	vertices.push_back({ vec4(50.0f, 20.0f, 20.0, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
+	vertices.push_back({ vec4(50.0f, 20.0f, 26.0f, 1.0f),vec4(rPiso, gPiso, bPiso, 0.2f) });
 	actualizarMatrizModelo();
 }
 
